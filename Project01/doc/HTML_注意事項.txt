@@ -1,0 +1,10 @@
+1. 把 lang="US"，改成 lang="zh-Hant-TW"。
+
+2. 把 <title> Document <title>，中間名稱 ( 自訂 )。 /*開啟網頁表頭*/ 
+
+3. 如要外部匯入樣式表 (CSS) ，語法如下。 /* 要增加在 </tilte>&</head>之間 */
+                <link href="檔案位置" type="text/css" rel="stylesheet">
+
+4. 切版屬性為 "div"，而後面有 "id" & "class" 兩種。
+    "id" = 值。 而值只能使用一次，不可重複使用。
+    "class" = 值。 值。 而值可重複使用。

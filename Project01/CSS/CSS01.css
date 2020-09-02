@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+body{
+    background-image: url("../Image/Varying-Stripes.svg");
+    background-attachment: fixed;
+}
+
+#header{
+    background: linear-gradient(4deg, rgb(103, 226, 227), rgb(114, 190, 88));
+}
+#header a{
+    text-decoration: none;
+}
+#header a h1{
+    padding: 10px 5px;
+    margin: 5px;
+    font-family: "微軟正黑體";
+    letter-spacing: 0.5em;
+    font-weight: 600;
+    color: #FF8040;
+    text-shadow: 3px 3px 5px #4F4F4F;
+}
+
+#myPic .carousel-indicators li{
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    margin-left: 1em;
+}
+#myPic a span{
+    width: 50px;
+    height: 50px;
+}
+
+nav{
+    margin: -1em;
+}
+nav a{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.22);
+    letter-spacing: 0.5em;
+}
+nav a:hover{
+    color: #00f;
+}
+
+#myContent1 .col1{
+    /*border: 1px solid firebrick;*/
+    margin: 20px 0;
+}
+#myContent1 .col1 h2 , #myContent2 .col1 h2 , #myContent3 .col1 h2{
+    /*border: 1px dashed fuchsia;*/
+    margin: 15px 0 0 0;
+    padding: 25px 5px;
+    letter-spacing: 0.5em;
+    text-align: center;
+    font-family: "標楷體";
+    font-size: 50px;
+    color: #66B3FF;
+}
+#myContent1 .col1 p{
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.5em;
+    line-height: 2em;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 5px;
+}
+#myContent2 .col{
+    /*border: 1px solid red;*/
+    padding: 10px;
+}
+#myContent2 img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px #4F4F4F;
+}
+
+#myContent2 .col a:hover .overlay {
+    opacity: 1;
+
+}
+#myContent2 .col a .overlay {
+    background: rgba(0, 0, 0, 0.329);
+    position: absolute;
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    transition: all 0.2s ease-in-out 0s;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    background: linear-gradient(180deg, rgb(95, 171, 240), rgb(48, 167, 168));
+    margin: 10em 0 0 0;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 0.5em;
+}

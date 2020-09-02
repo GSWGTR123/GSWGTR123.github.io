@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+#myContent3 .button1 , #myContent3 .button2 , #myContent3 .button3 , #myContent3 .button4 , #myContent3 .button5{
+    position:relative;
+    top: -6px;
+    border:0;
+    transition: all 40ms linear;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left:2px;
+    margin-right:2px;
+    font-size: 25px;
+    letter-spacing: 0.15em;
+}
+#myContent3 .button1:active:focus,#myContent3 .button1:focus:hover,#myContent3 .button1:focus,
+#myContent3 .button2:active:focus,#myContent3 .button2:focus:hover,#myContent3 .button2:focus,
+#myContent3 .button3:active:focus,#myContent3 .button3:focus:hover,#myContent3 .button3:focus,
+#myContent3 .button4:active:focus,#myContent3 .button4:focus:hover,#myContent3 .button4:focus,
+#myContent3 .button5:active:focus,#myContent3 .button5:focus:hover,#myContent3 .button5:focus{
+    outline: medium none;
+}
+#myContent3 .button1:active,#myContent3 .button1.active, 
+#myContent3 .button2:active,#myContent3 .button2.active,
+#myContent3 .button3:active,#myContent3 .button3.active,
+#myContent3 .button4:active,#myContent3 .button4.active,
+#myContent3 .button5:active,#myContent3 .button5.active{
+    top:2px;
+}
+
+#myContent3 .button1.btn-success {
+    box-shadow:0 0 0 1px #31c300 inset, 0 0 0 2px rgba(255,255,255,0.15) inset, 0 8px 0 0 #5eb924, 0 8px 8px 1px rgba(0,0,0,0.5);
+    background-color:#78d739;
+}
+#myContent3 .button1.btn-success:active , #myContent3 .button1.btn-success.active {
+    box-shadow:0 0 0 1px #30cd00 inset, 0 0 0 1px rgba(255,255,255,0.15) inset, 0 1px 3px 1px rgba(0,0,0,0.3);
+    background-color: #78d739;
+}
+
+#myContent3 .button2.btn-primary {
+    box-shadow:0 0 0 1px #417fbd inset, 0 0 0 2px rgba(255,255,255,0.15) inset, 0 8px 0 0 #4D5BBE, 0 8px 8px 1px rgba(0,0,0,0.5);
+    background-color:#4274D7;
+}
+#myContent3 .button2.btn-primary:active, #myContent3 .button2.btn-primary.active {
+    box-shadow:0 0 0 1px #417fbd inset, 0 0 0 1px rgba(255,255,255,0.15) inset, 0 1px 3px 1px rgba(0,0,0,0.3);
+    background-color:#4274D7;
+}
+
+#myContent3 .button3.btn-info {
+    box-shadow:0 0 0 1px #00a5c3 inset, 0 0 0 2px rgba(255,255,255,0.15) inset, 0 8px 0 0 #348FD2, 0 8px 8px 1px rgba(0,0,0,0.5);
+    background-color:#39B3D7;
+}
+#myContent3 .button3.btn-info:active, #myContent3 .button3.btn-info.active {
+    box-shadow:0 0 0 1px #00a5c3 inset, 0 0 0 1px rgba(255,255,255,0.15) inset, 0 1px 3px 1px rgba(0,0,0,0.3);
+    background-color: #39B3D7;
+}
+
+#myContent3 .button4.btn-warning {
+    box-shadow:0 0 0 1px #d79a47 inset, 0 0 0 2px rgba(255,255,255,0.15) inset, 0 8px 0 0 #D79A34, 0 8px 8px 1px rgba(0,0,0,0.5);
+    background-color:#FEAF20;
+}
+#myContent3 .button4.btn-warning:active, #myContent3 .button4.btn-warning.active {
+    box-shadow:0 0 0 1px #d79a47 inset, 0 0 0 1px rgba(255,255,255,0.15) inset, 0 1px 3px 1px rgba(0,0,0,0.3);
+    background-color: #FEAF20;
+}
+
+#myContent3 .button5.btn-magick {
+    color: #fff;
+    box-shadow:0 0 0 1px #9a00cd inset, 0 0 0 2px rgba(255,255,255,0.15) inset, 0 8px 0 0 #9823d5, 0 8px 8px 1px rgba(0,0,0,0.5);
+    background-color:#bb39d7;
+}
+#myContent3 .button5.btn-magick:active, #myContent3 .button5.btn-magick.active {
+    box-shadow:0 0 0 1px #9a00cd inset, 0 0 0 1px rgba(255,255,255,0.15) inset, 0 1px 3px 1px rgba(0,0,0,0.3);
+    background-color: #bb39d7;
+}
